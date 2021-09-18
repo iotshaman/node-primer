@@ -20,8 +20,8 @@ When the browser loads these resources, it makes all of the variables (and funct
 
 ```html
 <head>
-  <script type="text/javascript" src="b.js">
-  <script type="text/javascript" src="a.js">
+  <script type="text/javascript" src="b.js"></script>
+  <script type="text/javascript" src="a.js"></script>
 </head>
 ```
 
@@ -29,8 +29,8 @@ However, the below would work, since the dependent script was loaded second:
 
 ```html
 <head>
-  <script type="text/javascript" src="a.js">
-  <script type="text/javascript" src="b.js">
+  <script type="text/javascript" src="a.js"></script>
+  <script type="text/javascript" src="b.js"></script>
 </head>
 ```
 
