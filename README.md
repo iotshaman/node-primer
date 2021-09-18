@@ -10,7 +10,7 @@ Javascript files have to be "executed" in some "context". There are two common c
 
 When you load a web page in a browser, it looks through the entire HTML file to find "script tags" that look like this:
 
-```
+```html
 <script type="text/javascript" src="/some/file.js">
 ```
 
