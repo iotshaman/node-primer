@@ -4,7 +4,8 @@
   "description": "A quick Node JS primer, for new javascript developers.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "lesson": "node lesson-runner.js"
   },
   "author": "",
   "license": "ISC",

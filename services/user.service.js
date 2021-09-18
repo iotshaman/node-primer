@@ -1,4 +1,4 @@
-function getAllAvengers() {
+function getAllUsers() {
   return [
     {
       userId: 0,
