@@ -11,7 +11,7 @@ Javascript files have to be "executed" in some "context". There are two common c
 When you load a web page in a browser, it looks through the entire HTML file to find "script tags" that look like this:
 
 ```html
-<script type="text/javascript" src="/some/file.js">
+<script type="text/javascript" src="/some/file.js"></script>
 ```
 
 Whenever it finds a script tag, with `type="text/javascript`, it will load the resource located in the "src" attribute (for example, "/some/file.js"). If the "src" attribute **does not** start with "http" or "https" it will assume that the domain is the same as the HTML file; so, for the above example, if the HTML file was loaded from "https://iotshaman.com", the full script path would be "https://iotshaman.com/some/file.js".
