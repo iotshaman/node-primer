@@ -1,5 +1,5 @@
 //--------------------------------------------------------------------------------------
-// SECTION: CHEAT-SHEET PART 4 - COMPLEX ARRAYS (ARRAYS OF OBJECTS)
+// LESSON #4 - COMPLEX ARRAYS (ARRAYS OF OBJECTS)
 //--------------------------------------------------------------------------------------
 
 exports.Run = function() {

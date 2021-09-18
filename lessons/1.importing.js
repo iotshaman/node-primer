@@ -1,5 +1,5 @@
 //--------------------------------------------------------------------------------------
-// LESSON 1 - IMPORTING FUNCTIONS / VARIABLES FROM OTHER FILES
+// LESSON #1 - IMPORTING FUNCTIONS / VARIABLES FROM OTHER FILES
 //--------------------------------------------------------------------------------------
 
 exports.Run = function() {
