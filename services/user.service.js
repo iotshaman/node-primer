@@ -1,3 +1,4 @@
+// TODO: IMPLEMENT EXAMPLE USING USERS ARRAY
 function getAllUsers() {
   return [
     {

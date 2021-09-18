@@ -1,8 +1,12 @@
 //--------------------------------------------------------------------------------------
 // LESSON #5 - STRING INTERPOLATION
 //--------------------------------------------------------------------------------------
+let writeLessonHeader = require('./_lesson-header');
 
 exports.Run = function() {
+  // WRITE THE LESSON HEADER
+  writeLessonHeader("LESSON #5 - STRING INTERPOLATION");
+  
   // THE WORD INTERPOLATION SOUNDS COMPLICATION, HOWEVER IT IS REALLY EASY, AND POWERFUL.
   // THE WORD 'INTERPOLATE' SIMPLY MEANS TO "INERT SOMETHING INTO SOMETHING ELSE".
   // WHEN TALKING ABOUT STRING INTERPOLATION, WE ARE TALKING ABOUT INSERTING WORDS INTO 

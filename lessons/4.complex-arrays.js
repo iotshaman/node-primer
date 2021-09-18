@@ -1,8 +1,12 @@
 //--------------------------------------------------------------------------------------
 // LESSON #4 - COMPLEX ARRAYS (ARRAYS OF OBJECTS)
 //--------------------------------------------------------------------------------------
+let writeLessonHeader = require('./_lesson-header');
 
 exports.Run = function() {
+  // WRITE THE LESSON HEADER
+  writeLessonHeader("LESSON #4 - COMPLEX ARRAYS (ARRAYS OF OBJECTS)");
+  
   var complexFruitArray = [
     { fruitName: 'Apples', price: 0.99 },
     { fruitName: 'Oranges', price: 0.99 },
@@ -15,7 +19,7 @@ exports.Run = function() {
   var cherryData = complexFruitArray.find(function(fruit) {
     return fruit.fruitName == 'Cherries';
   });
-  console.log("\r\nPrice of cherries: " + cherryData.price);
+  console.log("Price of cherries: " + cherryData.price);
   
   // SORTING COMPLEX ARRAYS IS A LITTLE MORE DIFFICULT, BUT STILL NOT TOO DIFFICULT.
   // SINCE THE ARRAY CONTAINS OBJECTS (NOT PRIMITIVES) YOU HAVE TO TELL IT WHICH PROPERTY
@@ -31,6 +35,6 @@ exports.Run = function() {
     else if (a.price == b.price) return 0;
     return 1;
   });
-  console.log("\r\nSorted Complex Array:"); 
+  console.log("\r\n" + "Sorted Complex Array:"); 
   console.dir(sortedComplexFruitArray);
 }

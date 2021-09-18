@@ -1,8 +1,12 @@
 //--------------------------------------------------------------------------------------
 // LESSON #2 - TRUTHINESS / FALSINESS
 //--------------------------------------------------------------------------------------
+let writeLessonHeader = require('./_lesson-header');
 
 exports.Run = function() {
+  // WRITE THE LESSON HEADER
+  writeLessonHeader("LESSON #2 - TRUTHINESS / FALSINESS");
+  
   // THE CONTEPT OF TRUTHINESS ALLOWS DEVELOPERS TO CHECK IF SOMETHING HAS A VALUE, OR NOT.
   // IF SOMETHING IS TRUTY, IT MEANS THERE IS A VALUE IN THE VARIABLE.
   // ALTERNATIVELY, IF SOMETHING DOES NOT HAVE A VALUE, IT CAN BE CALLED 'FALSY'.
@@ -15,12 +19,14 @@ exports.Run = function() {
   let emptyStringVariable = '';
 
   // TO CHECK IS SOMETHING IS TRUTY, YOU CAN USE THE DOUBLE-EXLAMATION POINT:
+  console.log("Truthiness:")
   console.log("Is 'undefinedVariable' truthy? " + !!undefinedVariable);
   console.log("Is 'nullVariable' truthy? " + !!nullVariable);
   console.log("Is 'zeroVariable' truthy? " + !!zeroVariable);
   console.log("Is 'emptyStringVariable' truthy? " + !!emptyStringVariable);
 
   // TO CHECK IS SOMETHING IS FALSY, YOU CAN USE THE SINGLE-EXLAMATION POINT:
+  console.log("\r\n" + "Falsiness:")
   console.log("Is 'undefinedVariable' falsy? " + !undefinedVariable);
   console.log("Is 'nullVariable' falsy? " + !nullVariable);
   console.log("Is 'zeroVariable' falsy? " + !zeroVariable);
