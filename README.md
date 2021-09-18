@@ -2,6 +2,30 @@
 
 This github project is intended as a quick primer course on Javascript. We won't spend much time describing "how" to code in javascript, since this is something that is readily available through tutorials. Instead, we will focus on higher-level concerns, such as the difference between executing Javascript in Node JS vs. a Web Browser, and how to execute a javascript file in both Node JS and a Web Browser. 
 
+## How to use this primer
+
+Considering this primer is primarily intended to get users up-to-speed using Node JS to execute javascript, this primer is deployed as a Node JS pacakage, and is executable. This primer also includes some useful information in the README.md file (you are currently reading it!), so make sure to read all of this file before looking at the lessons.
+
+To run all lessons at once, first download the project (using git, or download as Zip file and extract), then run the below npm command (for more information on this, see section below titled "Installing Dependencies"):
+
+```sh
+npm install
+```
+
+Once complete, the package is now ready to run. To run all lessons, at 1 time, open the project folder in a CLI (CMD, Git Bash, etc) and run the below command:
+
+```sh
+npm start
+```
+
+To run a specific lesson (all lessons can be found in "lessons" folder), run the below command, specifying the lesson # (in the example below we are loading the first lesson (#1)):
+
+```sh
+npm run lesson 1
+```
+
+Each lesson will execute some sample code, and should include code comments that explain what is going on. Make sure to have the file open when executing, so you can refer to the code samples and comments.
+
 ## Javascript Contexts
 
 Javascript files have to be "executed" in some "context". There are two common contexts where javascript typically runs: Node JS, and a Web Browser.
